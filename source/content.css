@@ -1,8 +1,21 @@
-#text-notice {
-	position: fixed;
-	top: 10px;
-	left: 10px;
+#mmbl-text-notice {
 	padding: 10px;
 	background: #fff;
 	z-index: 999999;
+	position: fixed;
+	width: 0;
+	overflow: hidden;
+}
+
+#mmbl-text-notice.open {
+	width: 100px;
+}
+
+#mmbl-text-notice .btn {
+	height: calc(100% - 20px);
+	background: #ddd;
+	width: 15px;
+	position: absolute;
+	right: 0;
+	top: 10px;
 }
