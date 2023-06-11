@@ -1,6 +1,6 @@
 {
 	"name": "Make Mobile View",
-	"version": "0.0.4",
+	"version": "0.0.8",
 	"description": "Make any non-mobile website to MOBILE in ONE click",
 	"homepage_url": "https://github.com/fregante/browser-extension-template",
 	"manifest_version": 3,
