@@ -60,8 +60,8 @@ async function init() {
 	btn.classList.add('btn');
 	spn.innerHTML = MKMB;
 	document.body.prepend(container);
-	container.append(btn);
 	container.append(spn);
+	container.append(btn);
 	container.id = 'mmbl-text-notice';
 	btn.onclick = (e) => {
 		e.stopPropagation();

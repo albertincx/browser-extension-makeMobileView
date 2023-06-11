@@ -8,14 +8,27 @@
 }
 
 #mmbl-text-notice.open {
-	width: 100px;
+	width: 130px;
 }
 
 #mmbl-text-notice .btn {
-	height: calc(100% - 20px);
-	background: #ddd;
-	width: 15px;
 	position: absolute;
-	right: 0;
-	top: 10px;
+	top: 0;
+	display: block;
+	max-width: 20px;
+	height: 30px;
+	background: #ddd;
+	width: 20px;
+}
+
+#mmbl-text-notice.open .btn {
+	position: static;
+	top: auto;
+	float: right;
+}
+
+#mmbl-text-notice:not(.open) span {
+	overflow: hidden;
+	height: 20px;
+	display: block;
 }
