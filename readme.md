@@ -1,3 +1,6 @@
+# The url
+https://chromewebstore.google.com/detail/make-mobile-view/ohfappdhdoofhbiajcdakoicdpfpkggn
+
 # browser-extension-template
 
 Forked and transformed
